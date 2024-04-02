@@ -1,4 +1,3 @@
-// Write your solution in this file!
 var employee = {
     name: 'Sam',
     streetAddress: '12 Broadway'
@@ -23,7 +22,7 @@ var updatedEmployee = updateEmployeeWithKeyAndValue(employee, "position", "Manag
 console.log(updatedEmployee);
 destructivelyUpdateEmployeeWithKeyAndValue(employee, "salary", 50000)
 console.log(employee);
-var employeeWithoutAddress = deleteFromEmployeeBykey(employee, "streetAddress");
+var employeeWithoutAddress = deleteFromEmployeeByKey(employee, "streetAddress");
 console.log(employeeWithoutAddress);
 destructivelyDeleteFromEmployeeByKey(employee, "position");
 console.log(employee);
